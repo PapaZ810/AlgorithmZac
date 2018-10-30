@@ -20,32 +20,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEU-Up-xFm">
-                                <rect key="frame" x="16" y="44" width="343" height="336"/>
+                                <rect key="frame" x="16" y="44" width="343" height="451"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" size="15" name=".SFNSText"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-Cs-eDT">
-                                <rect key="frame" x="16" y="433" width="343" height="312"/>
+                                <rect key="frame" x="16" y="593" width="343" height="185"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="312" id="XsC-j5-fFY"/>
+                                    <constraint firstAttribute="height" constant="185" id="mAg-u9-yW9"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3Wh-ik-L1B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zSv-Cs-eDT" secondAttribute="bottom" constant="33" id="M9e-OW-e2p"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YNP-kS-FQs"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e6I-RS-WQc"/>
-                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="top" secondItem="uEU-Up-xFm" secondAttribute="bottom" constant="53" id="gmX-fs-AQQ"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="zSv-Cs-eDT" secondAttribute="leading" id="uoJ-aY-B3Q"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="zSv-Cs-eDT" secondAttribute="trailing" id="zUH-v3-qto"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Aih-iR-ufJ"/>
+                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="top" secondItem="uEU-Up-xFm" secondAttribute="bottom" constant="98" id="IR7-Gq-VE0"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UTO-wa-Swg"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="zSv-Cs-eDT" secondAttribute="leading" id="bG7-1b-WBY"/>
+                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tTo-5U-Z7I"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uRO-2u-bnG"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="zSv-Cs-eDT" secondAttribute="trailing" id="xTo-yE-LF4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
