@@ -30,22 +30,22 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-Cs-eDT">
-                                <rect key="frame" x="16" y="593" width="343" height="185"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swiftSample" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-Cs-eDT">
+                                <rect key="frame" x="16" y="503" width="343" height="275"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="185" id="mAg-u9-yW9"/>
+                                    <constraint firstAttribute="height" constant="275" id="a5W-iY-e3A"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Aih-iR-ufJ"/>
-                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="top" secondItem="uEU-Up-xFm" secondAttribute="bottom" constant="98" id="IR7-Gq-VE0"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UTO-wa-Swg"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="zSv-Cs-eDT" secondAttribute="leading" id="bG7-1b-WBY"/>
-                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tTo-5U-Z7I"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uRO-2u-bnG"/>
-                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="zSv-Cs-eDT" secondAttribute="trailing" id="xTo-yE-LF4"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="zSv-Cs-eDT" secondAttribute="leading" id="Ld8-Dd-qec"/>
+                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Okg-Y2-Zka"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="zSv-Cs-eDT" secondAttribute="trailing" id="Ver-8X-Hzo"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="X7D-Et-Sie"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xw4-8f-2E9"/>
+                            <constraint firstItem="zSv-Cs-eDT" firstAttribute="top" secondItem="uEU-Up-xFm" secondAttribute="bottom" constant="8" symbolic="YES" id="f5U-8P-Ps1"/>
+                            <constraint firstItem="uEU-Up-xFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zfg-Yf-TBB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -59,4 +59,7 @@
             <point key="canvasLocation" x="116" y="118.96551724137932"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="swiftSample" width="1248" height="1244"/>
+    </resources>
 </document>
